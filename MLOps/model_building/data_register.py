@@ -19,7 +19,7 @@ except RepositoryNotFoundError:
     print(f"Space '{repo_id}' created.")
 
 api.upload_folder(
-    folder_path="/content/drive/My Drive/Colab Notebooks/MLOps/data",
+    folder_path="MLOps/data",
     repo_id=repo_id,
     repo_type=repo_type,
 )
